@@ -1,0 +1,88 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    color: white;
+    padding: 20px;
+    background: #151c39;
+    box-sizing: border-box;
+}
+.menu-item {
+    list-style: none;
+}
+.menu-link {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.banner-title, .banner-description {
+    text-align: center;
+    color: white;
+}
+.banner-section {
+    padding: 100px 0;
+    background: url(image/zerno.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner-title {
+    font-size: 48px;
+}
+.cards-section {
+    padding: 50px 0px; 
+}
+.cards-title, .cards-description {
+    color: #553420;
+    text-align: center;
+}
+.card {
+    padding: 25px;
+    margin-top: 25px;
+    background: white;
+    box-shadow: 0px 2px 7px 0px #9e90ff;
+    text-align: center;
+}
+.card:hover {
+    box-shadow: 0px 2px 21px 0px #9e90ff;
+}
+
+.card-links {
+    text-decoration: none;
+    color: white;
+}
+.card-button {
+    text-align: center;
+    background: #553420;
+    padding: 10px 70px;
+    border-radius: 10px;
+}
+.card-title, .card-text {
+    margin-bottom: 10px;
+}
+.card-button {
+    cursor: pointer;
+}
+.cards {
+    display: inline-block;
+    width: 25%;
+    margin: 0px 45px;
+}
+.footer {
+    padding: 100px 0;
+    background: url(image/footor.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.copyright {
+    color: white;
+    text-align: center;
+}
